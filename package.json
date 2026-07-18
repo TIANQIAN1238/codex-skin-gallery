@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit -p tsconfig.app.json && vite build",
+    "start": "vite preview --host 0.0.0.0 --port 4173 --strictPort",
     "discover": "node scripts/discover-skins.mjs",
     "lint": "eslint .",
     "preview": "vite preview"

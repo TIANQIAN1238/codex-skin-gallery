@@ -7,3 +7,11 @@ dist
 *.tsbuildinfo
 vite.config.js
 vite.config.d.ts
+
+# OpenDeploy local deployment records and request bodies
+.opendeploy/attempts/
+.opendeploy/deploy-attempts.jsonl
+.opendeploy/plan.json
+.opendeploy/service.json
+.opendeploy/project.json
+.opendeploy/project-*-account.json
