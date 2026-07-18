@@ -1,0 +1,66 @@
+name: 投稿一套皮肤
+description: 推荐免费获取、有明确来源与安装说明的 Codex 社区皮肤
+title: "[皮肤投稿] "
+labels: [skin-submission]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 皮肤名称
+      placeholder: 例如：Gothic Void Crusade
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: 作者与来源
+      placeholder: 作者名 + 原始发布链接
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: 仓库或下载链接
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 支持平台
+      multiple: true
+      options:
+        - macOS
+        - Windows
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: install
+    attributes:
+      label: 安装与恢复方式
+      description: 请说明如何安装，以及如何恢复 Codex 官方外观。
+    validations:
+      required: true
+  - type: textarea
+    id: preview
+    attributes:
+      label: 预览图
+      description: 请拖入真实截图或提供公开图片链接，并注明它是概念图还是真实运行截图。
+    validations:
+      required: true
+  - type: textarea
+    id: rights
+    attributes:
+      label: 素材与许可说明
+      description: 请分别说明代码许可和图片、人物、IP、字体等视觉素材的授权状态。
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 投稿确认
+      options:
+        - label: 该皮肤可以免费获取，我已提供真实、可追溯的来源。
+          required: true
+        - label: 我没有把带 Codex UI 的效果截图当作可直接导入的纯背景图。
+          required: true
