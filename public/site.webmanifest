@@ -1,0 +1,10 @@
+{
+  "name": "Skindex — Codex 皮肤图鉴",
+  "short_name": "Skindex",
+  "description": "发现并一键安装全网免费的 Codex Desktop 社区皮肤。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090a0a",
+  "theme_color": "#090a0a",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

@@ -218,9 +218,185 @@ const extras: Skin[] = [
   },
 ]
 
-export const skins: Skin[] = [...extras, ...wangSkins, ...heigeSkins, ...roperSkins, ...packSkins]
+const dreamV2Repo = 'https://github.com/xnydl/codex-dream-skin'
+const dreamV2Skill = `${dreamV2Repo}/releases/download/v2.0.0/codex-dream-skin-v2.0.0.skill`
+const dreamV2Themes: Array<[string, string, string, SkinCategory, Skin['tone']]> = [
+  ['amber-dusk', '琥珀暮光', 'Amber Dusk', '治愈', '暗色'],
+  ['cyber-neon', '赛博霓虹', 'Cyber Neon', '科幻', '暗色'],
+  ['forest-mist', '森林薄雾', 'Forest Mist', '治愈', '明亮'],
+  ['midnight-aurora', '午夜极光', 'Midnight Aurora', '科幻', '暗色'],
+  ['sakura-dawn', '樱花破晓', 'Sakura Dawn', '治愈', '明亮'],
+  ['ssyai-dream', '世事宜梦境', 'Dreamscape', '治愈', '彩色'],
+]
 
-export const installPrompt = (skin: Skin) => `请帮我把 Codex 客户端换成「${skin.name}」皮肤。
+const dreamV2Skins: Skin[] = dreamV2Themes.map(([id, name, englishName, category, tone]) => ({
+  id: `dream-v2-${id}`,
+  name,
+  englishName,
+  author: '世事宜 AI',
+  engine: 'Codex Dream Skin v2',
+  image: raw('xnydl/codex-dream-skin', `macos/presets/preset-${id}/background.jpg`),
+  repository: dreamV2Repo,
+  themeId: `preset-${id}`,
+  downloadUrl: dreamV2Skill,
+  platforms: ['macOS', 'Windows'],
+  category,
+  tone,
+  verified: '双平台发行',
+  kind: '背景主题',
+  description: '自适应整窗背景主题，可以分析图片明暗、主色与安全区，并支持热切换。',
+  note: '主题通过本机回环连接运行，不会上传你导入的图片。',
+}))
+
+const autoSkinRepo = 'https://github.com/Finderchangchang/codex-autoskin'
+const autoSkins: Skin[] = [
+  ['aurora-veil', '极光轻纱', 'Aurora Veil', 'docs/screenshot-aurora-veil-fullscreen.png', '科幻', '暗色'],
+  ['ember-bloom', '余烬花火', 'Ember Bloom', 'docs/screenshot-ember-bloom-fullscreen.png', '治愈', '彩色'],
+].map(([id, name, englishName, image, category, tone]) => ({
+  id: `autoskin-${id}`,
+  name,
+  englishName,
+  author: 'AutoSkin Community',
+  engine: 'Codex AutoSkin',
+  image: raw('Finderchangchang/codex-autoskin', image),
+  repository: autoSkinRepo,
+  themeId: id,
+  platforms: ['macOS', 'Windows'],
+  category: category as SkinCategory,
+  tone: tone as Skin['tone'],
+  verified: '双平台工具',
+  kind: '完整皮肤' as const,
+  description: '由一张图片自动取色并生成全屏与横幅布局，安装后可持续自动恢复主题。',
+  note: '内置示例使用原创程序化图片，个人图片默认保存在本机私有目录。',
+}))
+
+const studioRepo = 'https://github.com/JasonSTong/codex-theme-studio'
+const studioThemes: Array<[string, string, string, string, SkinCategory, Skin['tone']]> = [
+  ['codex-2007', 'Codex 2007 经典蓝', 'Codex 2007', 'studio-codex-2007-live.jpg', '极简', '明亮'],
+  ['rick-morty', '瑞克与莫蒂实验室', 'Portal Lab', 'studio-rick-morty-live.jpg', '动漫', '彩色'],
+  ['ink-jianghu', '水墨江湖', 'Ink Jianghu', 'studio-ink-jianghu-live.jpg', '国风', '明亮'],
+  ['cyber-changan', '赛博长安', 'Cyber Chang’an', 'studio-cyber-changan-live.jpg', '国风', '暗色'],
+  ['abyssal-fall', '深渊坠落', 'Abyssal Fall', 'studio-abyssal-fall-live.jpg', '科幻', '暗色'],
+  ['genshin-yae', '八重神子工作台', 'Yae Miko Studio', 'studio-genshin-yae-miko-live.jpg', '游戏', '彩色'],
+]
+
+const studioSkins: Skin[] = studioThemes.map(([id, name, englishName, image, category, tone]) => ({
+  id: `studio-${id}`,
+  name,
+  englishName,
+  author: 'Codex Theme Studio',
+  engine: 'Codex Theme Studio',
+  image: raw('JasonSTong/codex-theme-studio', `docs/assets/screenshots/${image}`),
+  repository: studioRepo,
+  themeId: id,
+  platforms: ['macOS'],
+  category,
+  tone,
+  verified: 'Studio 真实预览',
+  kind: '完整皮肤',
+  description: '通过本地可视化 Studio 编辑、保存并热应用，支持模块布局和深浅配色。',
+  note: '当前是 macOS 公开预览版，首次应用时需要建立受管理的本机主题会话。',
+}))
+
+const codexNnRepo = 'https://github.com/slovx2/Codex-NN'
+const codexNnDownload = `${codexNnRepo}/releases/tag/v0.5.0`
+const codexNnThemes: Array<[string, string, string, SkinCategory, Skin['tone']]> = [
+  ['adventure-atlas', '云海远行图鉴', 'Adventure Atlas', '治愈', '明亮'],
+  ['miku-future-collab', '初音未来 · 未来共创', 'Miku Future', '动漫', '彩色'],
+  ['strawberry-starlight', '星莓绮梦', 'Strawberry Starlight', '治愈', '彩色'],
+  ['azure-neon-frontier', '苍蓝矩阵', 'Azure Neon Frontier', '科幻', '暗色'],
+  ['portal-dimension-lab', '多元宇宙开发站', 'Portal Dimension Lab', '动漫', '暗色'],
+]
+
+const codexNnSkins: Skin[] = codexNnThemes.map(([id, name, englishName, category, tone]) => ({
+  id: `codex-nn-${id}`,
+  name,
+  englishName,
+  author: 'Codex 暖暖',
+  engine: 'Codex NN',
+  image: raw('slovx2/Codex-NN', `docs/images/themes/${id}.jpg`),
+  repository: codexNnRepo,
+  themeId: id,
+  downloadUrl: codexNnDownload,
+  platforms: ['macOS', 'Windows'],
+  category,
+  tone,
+  verified: '双平台桌面管理器',
+  kind: '完整皮肤',
+  description: '可视化主题管理器内置皮肤，支持安装、切换、暂停、恢复和主题包导入。',
+  note: '需要先安装 Codex 暖暖桌面管理器，主题运行时请让它保留在系统托盘。',
+}))
+
+const taffyRepo = 'https://github.com/fishcold789/Taffy-Codex-Theme-Studio'
+const taffyDownload = `${taffyRepo}/releases/download/v2.3.2/Taffy-Codex-Theme-Studio-v2.3.2.zip`
+const taffySkins: Skin[] = [
+  ['amber-window', '塔菲 · 琥珀窗口', 'Taffy Amber', 'demo/images/amber-window.jpg', '明亮'],
+  ['yellow-hat', '塔菲 · 黄色小帽', 'Taffy Yellow Hat', 'demo/images/yellow-hat.jpeg', '彩色'],
+].map(([id, name, englishName, image, tone]) => ({
+  id: `taffy-${id}`,
+  name,
+  englishName,
+  author: 'Taffy Theme Studio',
+  engine: 'Taffy Codex Theme Studio',
+  image: raw('fishcold789/Taffy-Codex-Theme-Studio', image),
+  repository: taffyRepo,
+  themeId: id,
+  downloadUrl: taffyDownload,
+  platforms: ['Windows'],
+  category: '动漫' as const,
+  tone: tone as Skin['tone'],
+  verified: 'Windows 主题工作室',
+  kind: '完整皮肤' as const,
+  description: '永雏塔菲主题工作室，包含多套配色、背景设置面板和一键切回原皮。',
+  note: '这是非官方二创主题，人物与品牌素材仅适合遵循原项目说明使用。',
+}))
+
+const qqSkin: Skin = {
+  id: 'qq-classic-blue',
+  name: '复古 QQ 经典蓝',
+  englishName: 'Retro QQ Classic',
+  author: 'Codex QQ Skin',
+  engine: 'Codex QQ Skin',
+  image: raw('zhulin025/Codex-QQ-Skin', 'presets/preset-classic-codex/background.jpg'),
+  repository: 'https://github.com/zhulin025/Codex-QQ-Skin',
+  themeId: 'preset-classic-codex',
+  platforms: ['macOS'],
+  category: '极简',
+  tone: '明亮',
+  verified: 'macOS 自动化验证',
+  kind: '完整皮肤',
+  description: '双层蓝银标题栏、三栏工作区与 QQ 在线资料卡，重现经典桌面软件气质。',
+  note: '安装后会生成启动、暂停、验证与恢复入口，不修改 Codex 官方安装目录。',
+}
+
+export const skins: Skin[] = [
+  ...extras,
+  ...dreamV2Skins,
+  ...autoSkins,
+  ...studioSkins,
+  ...codexNnSkins,
+  ...taffySkins,
+  qqSkin,
+  ...wangSkins,
+  ...heigeSkins,
+  ...roperSkins,
+  ...packSkins,
+]
+
+export const installPrompt = (skin: Skin, locale: 'en' | 'zh' = 'zh') => locale === 'en' ? `Please install the “${skin.englishName || skin.name}” skin in my Codex desktop app.
+
+Skin details:
+- Theme ID: ${skin.themeId}
+- Official project: ${skin.repository}
+${skin.downloadUrl ? `- Installer: ${skin.downloadUrl}\n` : ''}
+Follow these requirements exactly:
+1. Read the project's real README and installation guide first, then detect whether I use macOS or Windows.
+2. Install and apply “${skin.englishName || skin.name}”. Never change my Codex API key, base URL, model provider, or project files.
+3. If Codex must quit or restart, remind me to save my current work first.
+4. Verify that the skin is active in the real interface, then explain how to restore the official appearance in one step.
+5. If my system is unsupported, the download differs from the documentation, or an asset source looks unsafe, stop and explain the reason.
+
+Start now. Do not only give me a tutorial—complete every step that can be performed safely.` : `请帮我把 Codex 客户端换成「${skin.name}」皮肤。
 
 皮肤信息：
 - 主题 ID：${skin.themeId}
