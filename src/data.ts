@@ -369,6 +369,78 @@ const qqSkin: Skin = {
   note: '安装后会生成启动、暂停、验证与恢复入口，不修改 Codex 官方安装目录。',
 }
 
+const getCodexThemeRepo = 'https://github.com/ViisOpen/get-codex-theme'
+const getCodexThemes: Array<[string, string, string, SkinCategory, Skin['tone']]> = [
+  ['alpine-daybreak', '阿尔卑斯晨曦', 'Alpine Daybreak', '极简', '明亮'],
+  ['aurora-glass', '极光玻璃', 'Aurora Glass', '科幻', '暗色'],
+  ['citrus-atelier', '柑橘工坊', 'Citrus Atelier', '治愈', '明亮'],
+  ['cloud-atelier', '云端画室', 'Cloud Atelier', '极简', '明亮'],
+  ['desert-eclipse', '沙漠日蚀', 'Desert Eclipse', '科幻', '暗色'],
+  ['inkstone-garden', '墨砚庭园', 'Inkstone Garden', '国风', '暗色'],
+  ['midnight-grid', '午夜网格', 'Midnight Grid', '极简', '暗色'],
+  ['neon-monsoon', '霓虹季风', 'Neon Monsoon', '科幻', '彩色'],
+  ['obsidian-orbit', '黑曜轨道', 'Obsidian Orbit', '科幻', '暗色'],
+  ['paper-grove', '纸境林地', 'Paper Grove', '治愈', '明亮'],
+  ['porcelain-tide', '瓷白潮汐', 'Porcelain Tide', '极简', '明亮'],
+  ['rose-quartz', '蔷薇石英', 'Rose Quartz', '治愈', '明亮'],
+  ['sage-workshop', '鼠尾草工坊', 'Sage Workshop', '治愈', '明亮'],
+  ['signal-drive', '信号驱动', 'Signal Drive', '科幻', '暗色'],
+  ['solar-paper', '日光纸境', 'Solar Paper', '极简', '明亮'],
+  ['velvet-observatory', '天鹅绒天文台', 'Velvet Observatory', '科幻', '暗色'],
+]
+
+const getCodexThemeSkins: Skin[] = getCodexThemes.map(([id, name, englishName, category, tone]) => ({
+  id: `get-theme-${id}`,
+  name,
+  englishName,
+  author: 'Get Codex Theme Community',
+  engine: 'Get Codex Theme',
+  image: raw('ViisOpen/get-codex-theme', `themes/free/${id}/screenshots/home.jpg`),
+  repository: getCodexThemeRepo,
+  themeId: id,
+  platforms: ['macOS', 'Windows'],
+  category,
+  tone,
+  verified: '完整主题包与真实截图',
+  kind: '完整皮肤',
+  description: '开放主题包标准中的免费完整主题，包含响应式素材、界面令牌、真实 Home 与 Task 截图，以及可逆安装流程。',
+  note: '安装工具会先校验主题包与素材清单；应用和重启仍需用户明确确认。',
+}))
+
+const awesomeThemesRepo = 'https://github.com/BeatAPI/Awesome-codex-themes'
+const awesomeThemes: Array<[string, string, string, string, SkinCategory, Skin['tone']]> = [
+  ['castle-archive', '烛光城堡档案', 'Castle Archive', 'public/theme-assets/castle-archive/preview.jpg', '游戏', '暗色'],
+  ['foundling-garden', '雾庭新芽', 'Foundling Garden', 'public/theme-assets/foundling-garden/preview.jpg', '治愈', '明亮'],
+  ['grand-line', '黑帆航海桌', 'Grand Line', 'public/theme-assets/grand-line/preview.jpg', '动漫', '暗色'],
+  ['mordor-runtime', '魔多运行时', 'Mordor Runtime', 'public/theme-assets/mordor-runtime/preview.jpg', '游戏', '暗色'],
+  ['new-world-studio', '新世界水墨工坊', 'New World Studio', 'public/theme-assets/new-world-studio/preview.jpg', '国风', '彩色'],
+  ['night-city', '夜之城工作台', 'Night City', 'public/theme-assets/night-city/preview.jpg', '科幻', '暗色'],
+  ['overworld-realms', '方块世界群系', 'Overworld Realms', 'public/theme-assets/overworld-realms/preview.jpg', '游戏', '彩色'],
+  ['saiyan-ukiyoe', '赛亚浮世绘', 'Saiyan Ukiyo-e', 'public/theme-assets/saiyan-ukiyoe/preview.jpg', '动漫', '彩色'],
+  ['satoru-gojo', '五条悟 · 无下限', 'Satoru Gojo', 'public/theme-assets/satoru-gojo/preview.png', '动漫', '明亮'],
+  ['slingshot-lab', '弹弓实验室', 'Slingshot Lab', 'public/theme-assets/slingshot-lab/preview.jpg', '游戏', '明亮'],
+  ['symbiote-sumi-e', '共生体水墨', 'Symbiote Sumi-e', 'public/theme-assets/symbiote-sumi-e/preview.jpg', '动漫', '暗色'],
+  ['zaun-workshop', '祖安炼金工坊', 'Zaun Workshop', 'public/theme-assets/zaun-workshop/preview.jpg', '游戏', '彩色'],
+]
+
+const awesomeThemeSkins: Skin[] = awesomeThemes.map(([id, name, englishName, image, category, tone]) => ({
+  id: `awesome-${id}`,
+  name,
+  englishName,
+  author: 'Awesome Codex Themes',
+  engine: 'Awesome Codex Themes',
+  image: raw('BeatAPI/Awesome-codex-themes', image),
+  repository: awesomeThemesRepo,
+  themeId: id,
+  platforms: ['macOS'],
+  category,
+  tone,
+  verified: 'Codex 26.707 / 26.715 实机验证',
+  kind: '完整皮肤',
+  description: '组件级全工作区主题，包含语义配色、玻璃表面、装饰组件和本地持久化主题引擎。',
+  note: '兼容层仅连接本机回环端口，不修改签名应用包；可暂停、恢复或完整卸载。',
+}))
+
 export const skins: Skin[] = [
   ...extras,
   ...dreamV2Skins,
@@ -377,6 +449,8 @@ export const skins: Skin[] = [
   ...codexNnSkins,
   ...taffySkins,
   qqSkin,
+  ...getCodexThemeSkins,
+  ...awesomeThemeSkins,
   ...wangSkins,
   ...heigeSkins,
   ...roperSkins,

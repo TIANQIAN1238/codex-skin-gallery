@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://skindex.app/sitemap.xml
+Sitemap: https://codexskins.online/sitemap.xml
