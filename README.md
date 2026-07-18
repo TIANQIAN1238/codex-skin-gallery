@@ -4,7 +4,9 @@
 
 - 发现好看的社区皮肤，并给原创作者和上游项目清晰署名。
 - 区分“效果图”“真实截图”和“可安装主题”。
-- 说明安装引擎、平台验证、安全边界与恢复方式。
+- 把不同安装引擎统一成“复制任务 → 打开 Codex → 粘贴发送”的小白流程。
+
+首版已经聚合 50+ 套皮肤，来源包括 `.codexskin`、Codex Dream Skin、HeiGe Skin Studio、ChatGPT Skin Switcher、Codex Skin Lab 和公开主题包。
 
 ## 本地开发
 
@@ -23,7 +25,24 @@ npm run build
 
 ## 数据维护
 
-首版数据位于 `src/data.ts`。每个条目包含作者、来源、预览图、安装入口、适用平台、验证状态和素材风险提示。
+数据位于 `src/data.ts`。每个条目包含作者、来源、预览图、安装入口、适用平台、验证状态和素材风险提示。技术来源只用于生成安全安装任务，普通用户界面不会展示源码入口。
+
+## 投稿接口
+
+Vercel 部署时，`api/submit.ts` 会把站内投稿写入一个建议设为私有的 GitHub 仓库，避免投稿者联系方式公开。
+
+配置以下环境变量：
+
+```bash
+GITHUB_SUBMISSION_TOKEN=github_pat_xxx
+SUBMISSION_REPOSITORY=your-account/private-skin-submissions
+```
+
+Token 只需要对投稿仓库创建 Issue 的最小权限。
+
+## 持续发现
+
+`scripts/discover-skins.mjs` 会搜索 GitHub 上近期更新的 Codex skin/theme 项目，并把候选项目写入 `data/discovered-projects.json`。GitHub Actions 每天自动运行一次，新的候选项目经过预览图、安装方式和素材权利审核后再加入正式目录。
 
 ## 收录原则
 

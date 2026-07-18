@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit -p tsconfig.app.json && vite build",
+    "discover": "node scripts/discover-skins.mjs",
     "lint": "eslint .",
     "preview": "vite preview"
   },
