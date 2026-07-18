@@ -3,6 +3,10 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises'
 const queries = [
   'codex skin in:name,description',
   'codex theme in:name,description',
+  'codex desktop skin in:name,description',
+  'codex dream skin in:name,description',
+  'codedrobe theme in:name,description',
+  'codex appearance theme in:name,description',
 ]
 
 const headers = {
@@ -42,7 +46,7 @@ for (const item of results.flat()) {
 
 const items = [...repositories.values()]
   .sort((a, b) => b.stars - a.stars || b.updatedAt.localeCompare(a.updatedAt))
-  .slice(0, 150)
+  .slice(0, 300)
 
 const outputUrl = new URL('../data/discovered-projects.json', import.meta.url)
 let previousItems = []

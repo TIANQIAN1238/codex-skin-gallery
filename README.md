@@ -6,7 +6,7 @@
 - 区分“效果图”“真实截图”和“可安装主题”。
 - 把不同安装引擎统一成“复制任务 → 打开 Codex → 粘贴发送”的小白流程。
 
-当前已经聚合 100+ 套皮肤，来源包括 `.codexskin`、Codex Dream Skin、Get Codex Theme、Awesome Codex Themes、HeiGe Skin Studio、ChatGPT Skin Switcher、Codex Skin Lab 和公开主题包。
+当前已经聚合 125+ 套皮肤，来源包括 `.codexskin`、Codex Dream Skin、Codex 原生外观主题、Get Codex Theme、Awesome Codex Themes、ThemeScape Studio、HeiGe Skin Studio、ChatGPT Skin Switcher、Codex Skin Lab 和公开主题包。
 
 ## 本地开发
 
