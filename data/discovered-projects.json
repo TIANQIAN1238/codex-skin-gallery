@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-08-07T04:34:17.244Z",
-  "count": 291,
+  "generatedAt": "2026-08-08T03:46:57.948Z",
+  "count": 292,
   "items": [
     {
       "name": "Fei-Away/Codex-Dream-Skin",
       "url": "https://github.com/Fei-Away/Codex-Dream-Skin",
       "description": "Codex Dream Skin",
-      "stars": 13345,
+      "stars": 13399,
       "language": "JavaScript",
       "license": null,
-      "updatedAt": "2026-08-07T04:18:57Z",
+      "updatedAt": "2026-08-08T03:42:19Z",
       "defaultBranch": "main"
     },
     {
       "name": "zhulin025/Codex-QQ-Skin",
       "url": "https://github.com/zhulin025/Codex-QQ-Skin",
       "description": "Codex 皮肤生成器（内置沉浸式女友、复古 QQ 风格）",
-      "stars": 435,
+      "stars": 440,
       "language": "JavaScript",
       "license": "MIT",
-      "updatedAt": "2026-08-07T03:32:09Z",
+      "updatedAt": "2026-08-08T03:13:29Z",
       "defaultBranch": "main"
     },
     {
       "name": "HeiGeAi/heige-codex-skin-studio",
       "url": "https://github.com/HeiGeAi/heige-codex-skin-studio",
       "description": "给 Codex Desktop 一键换肤：OpenAI Codex/ChatGPT 桌面端主题工具，CDP 注入零修改应用，Miku/原神/鸣潮/火影/恋与深空 9 预设+自定义图片取色 | One-click theme & skin switcher for OpenAI Codex Desktop (macOS/Windows)",
-      "stars": 393,
+      "stars": 397,
       "language": "JavaScript",
       "license": "MIT",
-      "updatedAt": "2026-08-07T04:07:35Z",
+      "updatedAt": "2026-08-08T03:35:43Z",
       "defaultBranch": "main"
     },
     {
       "name": "aqua5230/usage",
       "url": "https://github.com/aqua5230/usage",
       "description": "macOS menu bar & Windows tray app pinning Claude Code, Codex & Antigravity quota, burn rate, and cost to your screen. Local-first, no LLM API calls. HTML reports, 10 themes.",
-      "stars": 280,
+      "stars": 284,
       "language": "Python",
       "license": "AGPL-3.0",
-      "updatedAt": "2026-08-06T22:52:49Z",
+      "updatedAt": "2026-08-07T08:01:02Z",
       "defaultBranch": "main"
     },
     {
@@ -56,20 +56,20 @@
       "name": "Finderchangchang/codex-autoskin",
       "url": "https://github.com/Finderchangchang/codex-autoskin",
       "description": "发一张图给你的 Codex，它自己给自己换肤 | Send one image to your Codex and it reskins itself. Agent-native skin engine for the Codex desktop app.",
-      "stars": 114,
+      "stars": 116,
       "language": "JavaScript",
       "license": "MIT",
-      "updatedAt": "2026-08-05T18:44:34Z",
+      "updatedAt": "2026-08-07T07:56:50Z",
       "defaultBranch": "master"
     },
     {
       "name": "piperhex/codex-switch",
       "url": "https://github.com/piperhex/codex-switch",
       "description": "codex-switch & codex theme & codex mobile & chatgpt codex & codex relay & cc switch & cockpit-tools & codex skin",
-      "stars": 100,
+      "stars": 101,
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "updatedAt": "2026-08-07T01:16:29Z",
+      "updatedAt": "2026-08-07T10:22:50Z",
       "defaultBranch": "master"
     },
     {
@@ -126,20 +126,30 @@
       "name": "roland-luo/codex-dream-skin",
       "url": "https://github.com/roland-luo/codex-dream-skin",
       "description": "codex主题皮肤，fork自https://github.com/Fei-Away/Codex-Dream-Skin",
-      "stars": 27,
+      "stars": 28,
       "language": "Shell",
       "license": null,
-      "updatedAt": "2026-07-31T05:17:57Z",
+      "updatedAt": "2026-08-07T07:05:57Z",
       "defaultBranch": "master"
     },
     {
       "name": "slovx2/Codex-NN",
       "url": "https://github.com/slovx2/Codex-NN",
       "description": "A cross-platform visual theme manager for Codex Desktop | Codex Desktop 跨平台可视化主题管理器，兼容 Codex Dream Skin 主题包",
-      "stars": 25,
+      "stars": 26,
       "language": "Rust",
       "license": "MIT",
-      "updatedAt": "2026-08-05T06:58:25Z",
+      "updatedAt": "2026-08-07T13:48:40Z",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "TwentyfiveBTea/ink-wash-poster",
+      "url": "https://github.com/TwentyfiveBTea/ink-wash-poster",
+      "description": "A Codex skill that transforms themes, text, ideas, and reference images into thoughtfully composed ink-wash editorial posters with adaptive paper tones, restrained typography, and built-in visual review.",
+      "stars": 22,
+      "language": null,
+      "license": "AGPL-3.0",
+      "updatedAt": "2026-08-07T17:35:08Z",
       "defaultBranch": "main"
     },
     {
@@ -149,7 +159,7 @@
       "stars": 19,
       "language": "CSS",
       "license": "MIT",
-      "updatedAt": "2026-08-07T02:13:55Z",
+      "updatedAt": "2026-08-07T06:20:51Z",
       "defaultBranch": "main"
     },
     {
@@ -160,16 +170,6 @@
       "language": "TypeScript",
       "license": "MIT",
       "updatedAt": "2026-08-02T19:47:07Z",
-      "defaultBranch": "main"
-    },
-    {
-      "name": "TwentyfiveBTea/ink-wash-poster",
-      "url": "https://github.com/TwentyfiveBTea/ink-wash-poster",
-      "description": "A Codex skill that transforms themes, text, ideas, and reference images into thoughtfully composed ink-wash editorial posters with adaptive paper tones, restrained typography, and built-in visual review.",
-      "stars": 16,
-      "language": null,
-      "license": "AGPL-3.0",
-      "updatedAt": "2026-08-06T14:38:46Z",
       "defaultBranch": "main"
     },
     {
@@ -193,6 +193,16 @@
       "defaultBranch": "main"
     },
     {
+      "name": "luckdvr/photo-riso-poster",
+      "url": "https://github.com/luckdvr/photo-riso-poster",
+      "description": "urn a photo or a text theme into a quiet riso-print archive poster. Evidence-based abstraction, 2–3 ink risograph style, one-page Codex skill.",
+      "stars": 13,
+      "language": null,
+      "license": "MIT",
+      "updatedAt": "2026-08-07T15:43:52Z",
+      "defaultBranch": "main"
+    },
+    {
       "name": "captainfod/TRAE-Work-Dream-Skin",
       "url": "https://github.com/captainfod/TRAE-Work-Dream-Skin",
       "description": "Custom themes and a reusable Codex Skill for TRAE Work on macOS",
@@ -200,6 +210,16 @@
       "language": "CSS",
       "license": "MIT",
       "updatedAt": "2026-07-25T06:54:09Z",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "zhouwei713/WorkBuddy-Dream-Skin",
+      "url": "https://github.com/zhouwei713/WorkBuddy-Dream-Skin",
+      "description": "Community image-driven skin for Tencent WorkBuddy desktop. External CDP injection, fully reversible, zero-dep, Windows tray. Adapted from Fei-Away/Codex-Dream-Skin.",
+      "stars": 12,
+      "language": "CSS",
+      "license": "MIT",
+      "updatedAt": "2026-08-08T03:10:41Z",
       "defaultBranch": "main"
     },
     {
@@ -213,13 +233,23 @@
       "defaultBranch": "main"
     },
     {
+      "name": "TunaTung/claude-style-asuka",
+      "url": "https://github.com/TunaTung/claude-style-asuka",
+      "description": "Claude 风格明日香 · Claude EVA 暖奶油 Codex Dream Skin 主题包",
+      "stars": 11,
+      "language": "CSS",
+      "license": "MIT",
+      "updatedAt": "2026-08-08T01:21:27Z",
+      "defaultBranch": "master"
+    },
+    {
       "name": "269289854/Codex-Dream-Skin-electron",
       "url": "https://github.com/269289854/Codex-Dream-Skin-electron",
       "description": "",
       "stars": 11,
       "language": "TypeScript",
       "license": "MIT",
-      "updatedAt": "2026-08-07T03:33:13Z",
+      "updatedAt": "2026-08-07T07:42:54Z",
       "defaultBranch": "main"
     },
     {
@@ -230,16 +260,6 @@
       "language": "JavaScript",
       "license": "NOASSERTION",
       "updatedAt": "2026-08-06T08:04:53Z",
-      "defaultBranch": "main"
-    },
-    {
-      "name": "luckdvr/photo-riso-poster",
-      "url": "https://github.com/luckdvr/photo-riso-poster",
-      "description": "urn a photo or a text theme into a quiet riso-print archive poster. Evidence-based abstraction, 2–3 ink risograph style, one-page Codex skill.",
-      "stars": 10,
-      "language": null,
-      "license": "MIT",
-      "updatedAt": "2026-08-06T05:47:04Z",
       "defaultBranch": "main"
     },
     {
@@ -349,7 +369,17 @@
       "stars": 5,
       "language": "JavaScript",
       "license": "GPL-3.0",
-      "updatedAt": "2026-08-07T04:19:18Z",
+      "updatedAt": "2026-08-07T09:08:12Z",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "pttydou/Codex-Terraria-Theme",
+      "url": "https://github.com/pttydou/Codex-Terraria-Theme",
+      "description": "Terraria themes for OpenAI Codex Desktop — 44 environments, 524 companions, music, and automatic updates for Windows and macOS.",
+      "stars": 5,
+      "language": "JavaScript",
+      "license": "MIT",
+      "updatedAt": "2026-08-07T06:47:21Z",
       "defaultBranch": "main"
     },
     {
@@ -413,16 +443,6 @@
       "defaultBranch": "main"
     },
     {
-      "name": "swording-k/codex-theme-creator",
-      "url": "https://github.com/swording-k/codex-theme-creator",
-      "description": "通过一句话或一张参考图，让 Codex 为 macOS Codex Desktop 创作、安装并验证一套完整主题。",
-      "stars": 5,
-      "language": "JavaScript",
-      "license": "MIT",
-      "updatedAt": "2026-07-31T04:06:20Z",
-      "defaultBranch": "main"
-    },
-    {
       "name": "siuserxiaowei/Codex-Bugfire-Skin",
       "url": "https://github.com/siuserxiaowei/Codex-Bugfire-Skin",
       "description": "可定制的 Codex Desktop 像素桌宠：六状态反馈、喷火除 Bug、本地 XP 成长、任务板、纪念卡与一键 Customizer Skill。",
@@ -443,16 +463,6 @@
       "defaultBranch": "main"
     },
     {
-      "name": "TunaTung/claude-style-asuka",
-      "url": "https://github.com/TunaTung/claude-style-asuka",
-      "description": "Claude 风格明日香 · Claude EVA 暖奶油 Codex Dream Skin 主题包",
-      "stars": 4,
-      "language": "CSS",
-      "license": "MIT",
-      "updatedAt": "2026-08-07T03:05:38Z",
-      "defaultBranch": "master"
-    },
-    {
       "name": "codex-dream-skin/codex-dream-skin",
       "url": "https://github.com/codex-dream-skin/codex-dream-skin",
       "description": "Give your OpenAI Codex Desktop a soul. A safe, non-intrusive UI skinning tool with glassmorphism and custom backgrounds.",
@@ -460,16 +470,6 @@
       "language": "PowerShell",
       "license": "Apache-2.0",
       "updatedAt": "2026-08-05T15:15:27Z",
-      "defaultBranch": "main"
-    },
-    {
-      "name": "pttydou/Codex-Terraria-Theme",
-      "url": "https://github.com/pttydou/Codex-Terraria-Theme",
-      "description": "Terraria themes for OpenAI Codex Desktop — 44 environments, 524 companions, music, and automatic updates for Windows and macOS.",
-      "stars": 4,
-      "language": "JavaScript",
-      "license": "MIT",
-      "updatedAt": "2026-08-05T05:43:06Z",
       "defaultBranch": "main"
     },
     {
@@ -530,6 +530,16 @@
       "language": "JavaScript",
       "license": "MIT",
       "updatedAt": "2026-07-20T13:34:44Z",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "ARE404/weave-resume",
+      "url": "https://github.com/ARE404/weave-resume",
+      "description": "Factual, themeable resume creation and rendering for Codex — PDF, HTML, custom themes, layouts, and visual references.",
+      "stars": 3,
+      "language": "JavaScript",
+      "license": "MIT",
+      "updatedAt": "2026-08-07T15:38:33Z",
       "defaultBranch": "main"
     },
     {
@@ -603,16 +613,6 @@
       "defaultBranch": "rurutia"
     },
     {
-      "name": "zhouwei713/WorkBuddy-Dream-Skin",
-      "url": "https://github.com/zhouwei713/WorkBuddy-Dream-Skin",
-      "description": "Community image-driven skin for Tencent WorkBuddy desktop. External CDP injection, fully reversible, zero-dep, Windows tray. Adapted from Fei-Away/Codex-Dream-Skin.",
-      "stars": 3,
-      "language": "CSS",
-      "license": "MIT",
-      "updatedAt": "2026-07-25T05:28:28Z",
-      "defaultBranch": "main"
-    },
-    {
       "name": "liuqingwlil/codex-skin-desktop",
       "url": "https://github.com/liuqingwlil/codex-skin-desktop",
       "description": "这是一个codex主题和宠物的聚合器",
@@ -643,6 +643,16 @@
       "defaultBranch": "main"
     },
     {
+      "name": "lucashunter050/linear-default-theme",
+      "url": "https://github.com/lucashunter050/linear-default-theme",
+      "description": "A role-accurate Linear-inspired light and dark theme for Cursor, VS Code, terminals, and Codex.",
+      "stars": 2,
+      "language": null,
+      "license": "MIT",
+      "updatedAt": "2026-08-07T21:16:19Z",
+      "defaultBranch": "main"
+    },
+    {
       "name": "nightosong/codex-saber-theme",
       "url": "https://github.com/nightosong/codex-saber-theme",
       "description": "这是一个 Codex 的 Saber（Fate）主题皮肤",
@@ -660,16 +670,6 @@
       "language": "JavaScript",
       "license": "MIT",
       "updatedAt": "2026-08-06T01:53:41Z",
-      "defaultBranch": "main"
-    },
-    {
-      "name": "ARE404/weave-resume",
-      "url": "https://github.com/ARE404/weave-resume",
-      "description": "Factual, themeable resume creation and rendering for Codex — PDF, HTML, custom themes, layouts, and visual references.",
-      "stars": 2,
-      "language": "JavaScript",
-      "license": "MIT",
-      "updatedAt": "2026-08-05T08:27:35Z",
       "defaultBranch": "main"
     },
     {
@@ -710,16 +710,6 @@
       "language": "C#",
       "license": null,
       "updatedAt": "2026-08-01T08:53:12Z",
-      "defaultBranch": "main"
-    },
-    {
-      "name": "djiDJI130/workbuddy-mono-skin",
-      "url": "https://github.com/djiDJI130/workbuddy-mono-skin",
-      "description": "🖤 WorkBuddy 黑白简约皮肤 — 内置 12 套主题 · 基于 HeiGe Codex Skin Studio",
-      "stars": 2,
-      "language": "Batchfile",
-      "license": null,
-      "updatedAt": "2026-07-29T01:38:45Z",
       "defaultBranch": "main"
     },
     {
@@ -803,23 +793,23 @@
       "defaultBranch": "main"
     },
     {
-      "name": "puwenfu/CodexUsageBar",
-      "url": "https://github.com/puwenfu/CodexUsageBar",
-      "description": "Quiet Windows 11 taskbar overlay for Codex quota usage, with automatic light and dark themes.",
+      "name": "Ibook000/codex-skin-manager",
+      "url": "https://github.com/Ibook000/codex-skin-manager",
+      "description": "",
       "stars": 1,
-      "language": "C#",
+      "language": "Swift",
       "license": "MIT",
-      "updatedAt": "2026-08-07T04:27:28Z",
+      "updatedAt": "2026-08-08T03:02:05Z",
       "defaultBranch": "main"
     },
     {
-      "name": "pojianbing/codex-skin-studio",
-      "url": "https://github.com/pojianbing/codex-skin-studio",
-      "description": "",
+      "name": "irons163/codex-theme-switcher",
+      "url": "https://github.com/irons163/codex-theme-switcher",
+      "description": "A macOS menu bar studio for switching, creating, importing, and sharing Codex themes.",
       "stars": 1,
-      "language": "TypeScript",
+      "language": "Swift",
       "license": "MIT",
-      "updatedAt": "2026-08-06T08:47:52Z",
+      "updatedAt": "2026-08-08T00:26:19Z",
       "defaultBranch": "main"
     },
     {
@@ -829,7 +819,37 @@
       "stars": 1,
       "language": "HTML",
       "license": null,
-      "updatedAt": "2026-08-06T06:41:10Z",
+      "updatedAt": "2026-08-07T23:57:06Z",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "tingfengyinyue/Codex-Dream-Skin",
+      "url": "https://github.com/tingfengyinyue/Codex-Dream-Skin",
+      "description": "Codex 皮肤工作室 - 基于 HeiGe Codex Skin Studio 的个人定制版",
+      "stars": 1,
+      "language": "JavaScript",
+      "license": "MIT",
+      "updatedAt": "2026-08-07T13:57:53Z",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "pojianbing/codex-skin-studio",
+      "url": "https://github.com/pojianbing/codex-skin-studio",
+      "description": "",
+      "stars": 1,
+      "language": "TypeScript",
+      "license": "MIT",
+      "updatedAt": "2026-08-07T07:03:18Z",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "puwenfu/CodexUsageBar",
+      "url": "https://github.com/puwenfu/CodexUsageBar",
+      "description": "Quiet Windows 11 taskbar overlay for Codex quota usage, with automatic light and dark themes.",
+      "stars": 1,
+      "language": "C#",
+      "license": "MIT",
+      "updatedAt": "2026-08-07T04:27:28Z",
       "defaultBranch": "main"
     },
     {
@@ -850,16 +870,6 @@
       "language": "CSS",
       "license": null,
       "updatedAt": "2026-08-06T02:11:27Z",
-      "defaultBranch": "main"
-    },
-    {
-      "name": "lucashunter050/linear-default-theme",
-      "url": "https://github.com/lucashunter050/linear-default-theme",
-      "description": "A role-accurate Linear-inspired light and dark theme for Cursor, VS Code, terminals, and Codex.",
-      "stars": 1,
-      "language": null,
-      "license": "MIT",
-      "updatedAt": "2026-08-05T14:59:55Z",
       "defaultBranch": "main"
     },
     {
@@ -1050,16 +1060,6 @@
       "language": "PowerShell",
       "license": "MIT",
       "updatedAt": "2026-07-30T17:55:57Z",
-      "defaultBranch": "main"
-    },
-    {
-      "name": "irons163/codex-theme-switcher",
-      "url": "https://github.com/irons163/codex-theme-switcher",
-      "description": "A macOS menu bar studio for switching, creating, importing, and sharing Codex themes.",
-      "stars": 1,
-      "language": "Swift",
-      "license": "MIT",
-      "updatedAt": "2026-07-30T13:51:21Z",
       "defaultBranch": "main"
     },
     {
@@ -1423,13 +1423,13 @@
       "defaultBranch": "main"
     },
     {
-      "name": "YuxiangChai/Codex-Skin",
-      "url": "https://github.com/YuxiangChai/Codex-Skin",
-      "description": "",
+      "name": "leaf0329/Endfield-skins",
+      "url": "https://github.com/leaf0329/Endfield-skins",
+      "description": "If you want a better skin in Endfield style for Codex, this may be a choice.",
       "stars": 0,
-      "language": "JavaScript",
+      "language": "TypeScript",
       "license": null,
-      "updatedAt": "2026-08-07T04:32:39Z",
+      "updatedAt": "2026-08-08T02:48:27Z",
       "defaultBranch": "main"
     },
     {
@@ -1439,7 +1439,107 @@
       "stars": 0,
       "language": "JavaScript",
       "license": "MIT",
-      "updatedAt": "2026-08-07T03:21:16Z",
+      "updatedAt": "2026-08-08T02:22:33Z",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "ericviana/zellij-ai-stats",
+      "url": "https://github.com/ericviana/zellij-ai-stats",
+      "description": "Zellij plugin showing Claude Code and Codex quota usage in a themed powerline bar.",
+      "stars": 0,
+      "language": "Rust",
+      "license": null,
+      "updatedAt": "2026-08-08T02:01:44Z",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "Ascurse/mac-limits-tracker",
+      "url": "https://github.com/Ascurse/mac-limits-tracker",
+      "description": "macOS menu-bar app that shows Claude Code, Codex and Kimi usage limits at a glance — live 5h/weekly windows, plan info, themes, desktop widget",
+      "stars": 0,
+      "language": "Swift",
+      "license": "MIT",
+      "updatedAt": "2026-08-07T21:25:00Z",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "cixiangtao/codex-skin",
+      "url": "https://github.com/cixiangtao/codex-skin",
+      "description": "Codex 桌面端主题换装与界面美化工具，支持全局壁纸、主面板和侧边栏人物布景。",
+      "stars": 0,
+      "language": "TypeScript",
+      "license": "MIT",
+      "updatedAt": "2026-08-07T16:27:04Z",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "863683348/codex-skin-studio",
+      "url": "https://github.com/863683348/codex-skin-studio",
+      "description": "Codex Skin Studio - official site for the desktop theming/skin tool",
+      "stars": 0,
+      "language": "JavaScript",
+      "license": "MIT",
+      "updatedAt": "2026-08-07T16:15:30Z",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "ANDYPENG09/hermes-gpt-light-theme",
+      "url": "https://github.com/ANDYPENG09/hermes-gpt-light-theme",
+      "description": "Clean light-mode dashboard theme for Hermes Agent, inspired by OpenAI ChatGPT/Codex",
+      "stars": 0,
+      "language": null,
+      "license": null,
+      "updatedAt": "2026-08-07T14:26:03Z",
+      "defaultBranch": "master"
+    },
+    {
+      "name": "AndrwewHan/dreamcore-collage-poster",
+      "url": "https://github.com/AndrwewHan/dreamcore-collage-poster",
+      "description": " Create dense dreamcore, surreal collage, digital-memory, and ritual-archive posters from themes or reference photos with Codex's native image generation tool. Use for layered fragments, repeated details, impossible scale, translucent geometric blocks, CRT/halftone/JPEG texture, retro computer UI, and high-density vertical poster composition.",
+      "stars": 0,
+      "language": null,
+      "license": "MIT",
+      "updatedAt": "2026-08-07T08:47:52Z",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "swtichues/Codex-Dream-Skin-Universal",
+      "url": "https://github.com/swtichues/Codex-Dream-Skin-Universal",
+      "description": "用于API和OpenAI账号登录的Codex/ChatGPT皮肤替换",
+      "stars": 0,
+      "language": "PowerShell",
+      "license": null,
+      "updatedAt": "2026-08-07T07:56:04Z",
+      "defaultBranch": "master"
+    },
+    {
+      "name": "ignize9527/codex-dream-skin-mac",
+      "url": "https://github.com/ignize9527/codex-dream-skin-mac",
+      "description": "Codex 桌面版 macOS 换肤：CDP 动态注入 + 一键复刻明星专属定制皮肤（不改官方文件，可秒还原）",
+      "stars": 0,
+      "language": "JavaScript",
+      "license": "NOASSERTION",
+      "updatedAt": "2026-08-07T07:24:44Z",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "slalomboy/hotspot-radar-workflow-skill",
+      "url": "https://github.com/slalomboy/hotspot-radar-workflow-skill",
+      "description": "Installable Codex Skill for turning one content theme into evidence-backed Douyin topic candidates with TikHub.",
+      "stars": 0,
+      "language": "JavaScript",
+      "license": "MIT",
+      "updatedAt": "2026-08-07T06:56:12Z",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "YuxiangChai/Codex-Skin",
+      "url": "https://github.com/YuxiangChai/Codex-Skin",
+      "description": "",
+      "stars": 0,
+      "language": "JavaScript",
+      "license": null,
+      "updatedAt": "2026-08-07T05:33:01Z",
       "defaultBranch": "main"
     },
     {
@@ -1470,16 +1570,6 @@
       "language": "JavaScript",
       "license": null,
       "updatedAt": "2026-08-06T16:40:17Z",
-      "defaultBranch": "main"
-    },
-    {
-      "name": "863683348/codex-skin-studio",
-      "url": "https://github.com/863683348/codex-skin-studio",
-      "description": "Codex Skin Studio - official site for the desktop theming/skin tool",
-      "stars": 0,
-      "language": "JavaScript",
-      "license": "MIT",
-      "updatedAt": "2026-08-06T16:14:32Z",
       "defaultBranch": "main"
     },
     {
@@ -1623,16 +1713,6 @@
       "defaultBranch": "main"
     },
     {
-      "name": "Ascurse/mac-limits-tracker",
-      "url": "https://github.com/Ascurse/mac-limits-tracker",
-      "description": "macOS menu-bar app that shows Claude Code, Codex and Kimi usage limits at a glance — live 5h/weekly windows, plan info, themes, desktop widget",
-      "stars": 0,
-      "language": "Swift",
-      "license": "MIT",
-      "updatedAt": "2026-08-05T10:10:35Z",
-      "defaultBranch": "main"
-    },
-    {
       "name": "ApakohZzz/Gitea-Themes-CodexStyle",
       "url": "https://github.com/ApakohZzz/Gitea-Themes-CodexStyle",
       "description": "My custom Gitea themes",
@@ -1721,16 +1801,6 @@
       "license": null,
       "updatedAt": "2026-08-04T09:39:30Z",
       "defaultBranch": "main"
-    },
-    {
-      "name": "swtichues/Codex-Dream-Skin-Universal",
-      "url": "https://github.com/swtichues/Codex-Dream-Skin-Universal",
-      "description": "用于API和OpenAI账号登录的Codex/ChatGPT皮肤替换",
-      "stars": 0,
-      "language": "PowerShell",
-      "license": null,
-      "updatedAt": "2026-08-04T09:11:50Z",
-      "defaultBranch": "master"
     },
     {
       "name": "moliniu/Codex-Dream-Skin-Studio",
@@ -2043,16 +2113,6 @@
       "defaultBranch": "main"
     },
     {
-      "name": "cixiangtao/codex-skin",
-      "url": "https://github.com/cixiangtao/codex-skin",
-      "description": "Codex 桌面端主题换装与界面美化工具，支持全局壁纸、主面板和侧边栏人物布景。",
-      "stars": 0,
-      "language": "TypeScript",
-      "license": "MIT",
-      "updatedAt": "2026-07-31T13:24:11Z",
-      "defaultBranch": "main"
-    },
-    {
       "name": "fand75076-collab/migi-advanced",
       "url": "https://github.com/fand75076-collab/migi-advanced",
       "description": "Migi Advanced — macOS native Metal desktop pet that visualizes AI agent (Codex/Grok/ZCode) activity states. Parasyte-themed companion with 29 animation clips, relationship stages, deep sleep, and non-verbal interaction.",
@@ -2253,26 +2313,6 @@
       "defaultBranch": "main"
     },
     {
-      "name": "tuwenxin1996-sudo/chiikawa-little-workbench",
-      "url": "https://github.com/tuwenxin1996-sudo/chiikawa-little-workbench",
-      "description": "Unofficial Chiikawa-inspired theme for ChatGPT / Codex desktop",
-      "stars": 0,
-      "language": "JavaScript",
-      "license": "NOASSERTION",
-      "updatedAt": "2026-07-29T08:18:21Z",
-      "defaultBranch": "main"
-    },
-    {
-      "name": "miaozyphp/xzhiyuan",
-      "url": "https://github.com/miaozyphp/xzhiyuan",
-      "description": "x纸鸢 - an open-source Windows theme workbench for Codex",
-      "stars": 0,
-      "language": "C#",
-      "license": "MIT",
-      "updatedAt": "2026-07-28T19:51:52Z",
-      "defaultBranch": "main"
-    },
-    {
       "name": "aliseblu/codex-dream-skin",
       "url": "https://github.com/aliseblu/codex-dream-skin",
       "description": "对闪退问题做了改进",
@@ -2350,26 +2390,6 @@
       "language": "JavaScript",
       "license": "MIT",
       "updatedAt": "2026-07-27T03:55:32Z",
-      "defaultBranch": "main"
-    },
-    {
-      "name": "d100000/CodeX-Skin",
-      "url": "https://github.com/d100000/CodeX-Skin",
-      "description": "Codex 皮肤管理器，附带海量的预制皮肤",
-      "stars": 0,
-      "language": "JavaScript",
-      "license": null,
-      "updatedAt": "2026-07-26T19:29:57Z",
-      "defaultBranch": "main"
-    },
-    {
-      "name": "bobbymac/t3-skin",
-      "url": "https://github.com/bobbymac/t3-skin",
-      "description": "Codex plugin for designing, validating, packaging, and integrating T3 Code themes",
-      "stars": 0,
-      "language": "Python",
-      "license": "MIT",
-      "updatedAt": "2026-07-26T15:55:08Z",
       "defaultBranch": "main"
     },
     {
@@ -2840,16 +2860,6 @@
       "language": "JavaScript",
       "license": "MIT",
       "updatedAt": "2026-07-17T08:46:35Z",
-      "defaultBranch": "main"
-    },
-    {
-      "name": "ignize9527/codex-dream-skin-mac",
-      "url": "https://github.com/ignize9527/codex-dream-skin-mac",
-      "description": "Codex 桌面版 macOS 换肤：CDP 动态注入 + 一键复刻明星专属定制皮肤（不改官方文件，可秒还原）",
-      "stars": 0,
-      "language": "JavaScript",
-      "license": "NOASSERTION",
-      "updatedAt": "2026-07-17T08:16:02Z",
       "defaultBranch": "main"
     },
     {
